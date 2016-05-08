@@ -43,11 +43,23 @@ public abstract class Duck {
 	// this method is universal for all Ducks
 	public void swim()
 	{
-		System.out.println("All ducks quack!");
+		System.out.println("All ducks can swim!");
 	}
 	
 	public void display()
 	{
 		
 	}
+
+	public void setQuackBehavior(QuackBehavior quack)
+	{
+		mQuack = quack;
+	}
+
+	public void setFlyBehavior(FlyBehavior fly)
+	{
+		mFly = fly;
+	}
+	
+	
 }

@@ -7,5 +7,11 @@ public class DuckTestingApp {
 		Duck mallard = new MallardDuck();
 		mallard.performQuack();
 		mallard.performFly();
+		mallard.swim();
+		
+		Duck model = new ModelDuck();
+		model.performFly();
+		model.setFlyBehavior(new FlyBehaviorRocket());
+		model.performFly();
 	}
 }
