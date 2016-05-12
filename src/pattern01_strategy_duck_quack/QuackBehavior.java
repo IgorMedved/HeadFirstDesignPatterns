@@ -1,4 +1,4 @@
-package pattern01_delegate_duck_quack;
+package pattern01_strategy_duck_quack;
 
 public interface QuackBehavior {
 

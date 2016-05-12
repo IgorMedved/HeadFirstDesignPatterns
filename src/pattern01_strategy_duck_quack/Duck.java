@@ -1,4 +1,4 @@
-package pattern01_delegate_duck_quack;
+package pattern01_strategy_duck_quack;
 
 /* problem definition
  * 1) adding new fly behavior into Duck super class results in RubberDucks flying
