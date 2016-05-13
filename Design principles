@@ -1,0 +1,5 @@
+Design Principles:
+1) Identify what changes and encapsulate it in separate class or family of classes
+2) Program to interface not implementation
+3) Favor composition over inheritance
+4) Classes should be closed for modification but open to extension
