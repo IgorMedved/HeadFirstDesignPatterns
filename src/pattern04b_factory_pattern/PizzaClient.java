@@ -4,7 +4,8 @@ public class PizzaClient
 {
 	public static void main (String[] args)
 	{
-		PizzaIngredientFactory factory = new ChicagoPizzaIngredientFactory();
-		PizzaStore store = new PizzaStore(factory);
+		
+		PizzaStore store = new ChicagoPizzaStore();
+		store.orderPizza("cheese");
 	}
 }

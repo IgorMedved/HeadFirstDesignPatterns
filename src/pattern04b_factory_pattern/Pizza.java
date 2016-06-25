@@ -12,7 +12,7 @@ public abstract class Pizza
 	
 	
 	
-	public abstract void prepare(PizzaIngredientFactory mFactory);
+	public abstract void prepare();
 	
 	public void bake()
 	{
@@ -33,5 +33,9 @@ public abstract class Pizza
 	}
 	
 	
+	protected void setName(String name)
+	{
+		mPizzaName = name;
+	}
 
 }
